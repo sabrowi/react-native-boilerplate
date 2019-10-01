@@ -6,6 +6,7 @@ This boilerplate include basic authentication, theme configuration, and state ma
 
 ```bash
 git clone https://github.com/sabrowi/react-native-boilerplate.git
+cp .env.example .env
 yarn install
 ```
 
