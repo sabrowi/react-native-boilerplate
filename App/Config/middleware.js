@@ -36,6 +36,8 @@ const tokenMiddleware = store => next => action => {
     AsyncStorage.removeItem('jwt');
     api.setToken(null);
   }
+
+  next(action);
 };
 
 function isPromise(v) {
