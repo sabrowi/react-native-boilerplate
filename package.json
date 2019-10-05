@@ -1,7 +1,15 @@
 {
-  "name": "sabrowi/react-native-boilerplate",
+  "name": "react-native-boilerplate",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Kukuh Sabrowi",
+    "email": "ku2h.sabrowi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrowi/react-native-boilerplate.git"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
